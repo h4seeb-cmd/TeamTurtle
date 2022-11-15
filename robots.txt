@@ -1,1 +1,1 @@
-Sitemap: https://fastpages.fast.ai/sitemap.xml
+Sitemap: https://h4seeb-cmd.github.io/TeamTurtle/sitemap.xml
