@@ -7,5 +7,27 @@
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
+body {
+    background-color: lightgreen !important;
+    background-size: 1200% 1200%;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: green;
+}
+
+a:hover {
+    color: #0a8725 !important;
+    text-decoration: none !important;
+    }  
+
+a:link {
+    color: #0a8725 !important;
+}
+    
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
