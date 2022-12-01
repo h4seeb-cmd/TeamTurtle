@@ -427,11 +427,11 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-body { background-color: lightgreen !important; background-size: 1200% 1200%; }
+body { background-color: white !important; background-size: 1200% 1200%; }
 
-h1 { color: green; }
+h1 { color: black; }
 
-p { color: green; }
+p { color: black; }
 
 a:hover { color: #0a8725 !important; text-decoration: none !important; }
 
