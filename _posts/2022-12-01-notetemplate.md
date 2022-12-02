@@ -1,9 +1,7 @@
 ---
 keywords: fastai
 title: Note Template 
-toc: true
 comments: true
-categories: [Week-15,Big-Idea-12/13]
 nb_path: _notebooks/2022-12-1-notetemplate.ipynb
 layout: notebook
 ---
@@ -25,6 +23,12 @@ layout: notebook
 <p>Arguments:</p>
 <p>Modularity:</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instructions-to-the-code-below:-Add-the-command-that-will-call-the-procedure">Instructions to the code below: Add the command that will call the procedure<a class="anchor-link" href="#Instructions-to-the-code-below:-Add-the-command-that-will-call-the-procedure"> </a></h2>
 </div>
 </div>
 </div>
@@ -69,6 +73,12 @@ layout: notebook
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Homework/Hacks:">Homework/Hacks:<a class="anchor-link" href="#Homework/Hacks:"> </a></h1>
+</div>
+</div>
+</div>
 </div>
  
 
