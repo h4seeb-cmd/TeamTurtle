@@ -433,9 +433,9 @@ h1 { color: black; }
 
 p { color: black; }
 
-a:hover { color: #0a8725 !important; text-decoration: none !important; }
+a:hover { color: #000000 !important; text-decoration: none !important; }
 
-a:link { color: #0a8725 !important; }
+a:link { color: #000000 !important; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
