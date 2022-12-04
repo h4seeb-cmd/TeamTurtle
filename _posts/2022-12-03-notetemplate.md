@@ -1,6 +1,6 @@
 ---
 keywords: fastai
-title: Note Template 
+title: Note Templates 
 comments: true
 nb_path: _notebooks/2022-12-1-notetemplate.ipynb
 layout: notebook
@@ -17,18 +17,26 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-is-a-procedure?">What is a procedure?<a class="anchor-link" href="#What-is-a-procedure?"> </a></h1><p>Fill in the blanks please:</p>
+<h1 id="Take-any-additional-notes-that-you-would-like-here">Take any additional notes that you would like here<a class="anchor-link" href="#Take-any-additional-notes-that-you-would-like-here"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What-are-procedures?">What are procedures?<a class="anchor-link" href="#What-are-procedures?"> </a></h1><p><strong>Fill in the blanks please:</strong></p>
 <p>Procedure:</p>
 <p>Parameters:</p>
 <p>Arguments:</p>
 <p>Modularity:</p>
+<p>Procedural Abstraction:</p>
+<p>Why are procedures effective?:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Instructions-to-the-code-below:-Add-the-command-that-will-call-the-procedure">Instructions to the code below: Add the command that will call the procedure<a class="anchor-link" href="#Instructions-to-the-code-below:-Add-the-command-that-will-call-the-procedure"> </a></h2>
+<h2 id="Instructions-to-Example-1-below:-Add-the-word-that-will-call-the-procedure.">Instructions to <mark>Example 1</mark> below: Add the word that will <strong>call</strong> the procedure.<a class="anchor-link" href="#Instructions-to-Example-1-below:-Add-the-word-that-will-call-the-procedure."> </a></h2>
 </div>
 </div>
 </div>
@@ -39,15 +47,14 @@ layout: notebook
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decimal</span> <span class="o">=</span> <span class="mi">7</span> <span class="c1"># decimal number</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">decimal</span><span class="p">,</span><span class="s2">&quot;in binary is ...&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">decimal</span> <span class="o">=</span> <span class="mi">7</span>
 
-<span class="n">convertToBinary</span><span class="p">(</span><span class="n">decimal</span><span class="p">)</span> <span class="c1"># MAKE THIS THE THING THE STUDENTS HAVE TO ADD DURING THE LESSON</span>
-
-<span class="k">def</span> <span class="nf">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> <span class="c1"># Function to print binary number</span>
+<span class="k">def</span> <span class="nf">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
        <span class="n">convertToBinary</span><span class="p">(</span><span class="n">n</span><span class="o">//</span><span class="mi">2</span><span class="p">)</span>
    <span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">2</span><span class="p">,</span><span class="n">end</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="n">convertToBinary</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">()</span>
 </pre></div>
 
@@ -61,8 +68,7 @@ layout: notebook
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>7 in binary is ...
-111
+<pre>
 </pre>
 </div>
 </div>
@@ -73,6 +79,12 @@ layout: notebook
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instructions-to-Example-2-below:">Instructions to <mark>Example 2</mark> below:<a class="anchor-link" href="#Instructions-to-Example-2-below:"> </a></h2>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Homework/Hacks:">Homework/Hacks:<a class="anchor-link" href="#Homework/Hacks:"> </a></h1>
