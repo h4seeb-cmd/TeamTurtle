@@ -17,6 +17,50 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>When calling procedures in JavaScript, we use function as opposed to def in python. Here is a basic function to start with. With python we would define the function with "def" but here we are using "function." After that, it is nearly the same for the rest of the program.</p>
+
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">subtraction</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">a</span> <span class="o">-</span> <span class="nx">b</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nx">subtraction</span><span class="p">(</span><span class="mf">10</span><span class="p">,</span><span class="mf">12</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>-2</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Example-1:-Postive-and-Negatives-Procedure">Example 1: Postive and Negatives Procedure<a class="anchor-link" href="#Example-1:-Postive-and-Negatives-Procedure"> </a></h1>
 </div>
 </div>
