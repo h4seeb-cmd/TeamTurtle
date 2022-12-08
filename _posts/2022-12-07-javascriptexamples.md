@@ -198,13 +198,6 @@ There are 1 zeroes
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hint: you can use this JavaScript template to get started (this is the code to find the min and max):</p>
-
-</div>
-</div>
-</div>
 </div>
  
 
