@@ -17,53 +17,7 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Example-1:-Time-Conversion-Procedure">Example 1: Time Conversion Procedure<a class="anchor-link" href="#Example-1:-Time-Conversion-Procedure"> </a></h1>
-</div>
-</div>
-</div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">timeConversion</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="nx">s</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">8</span><span class="p">).</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">);</span>
-    <span class="nx">arr</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;PM&#39;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mf">1</span><span class="p">)</span> <span class="o">?</span>
-             <span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span> <span class="o">==</span> <span class="mf">12</span> <span class="o">?</span> <span class="s1">&#39;12&#39;</span> <span class="o">:</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span> <span class="o">+</span> <span class="mf">12</span><span class="p">)</span> <span class="o">:</span>
-             <span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span> <span class="o">==</span> <span class="mf">12</span> <span class="o">?</span> <span class="s1">&#39;00&#39;</span> <span class="o">:</span> <span class="nx">arr</span><span class="p">[</span><span class="mf">0</span><span class="p">]);</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">));</span>
-    <span class="p">}</span>
-
-    <span class="kd">var</span> <span class="nx">input</span> <span class="o">=</span> <span class="s2">&quot;07:05:45PM&quot;</span><span class="p">;</span>
-    <span class="nx">timeConversion</span><span class="p">(</span><span class="nx">input</span><span class="p">);</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>19:05:45
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Example-2:-Positive-and-Negatives-Procedure">Example 2: Positive and Negatives Procedure<a class="anchor-link" href="#Example-2:-Positive-and-Negatives-Procedure"> </a></h1>
+<h1 id="Example-1:-Postive-and-Negatives-Procedure">Example 1: Postive and Negatives Procedure<a class="anchor-link" href="#Example-1:-Postive-and-Negatives-Procedure"> </a></h1>
 </div>
 </div>
 </div>
@@ -113,6 +67,48 @@ layout: notebook
 There are 2 positive numbers
 There are 2 negative numbers
 There are 1 zeroes
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Challenge-2-2:-Time-Conversion-Procedure-(Bonus-0.1-points)"><mark>Challenge 2</mark> 2: Time Conversion Procedure (Bonus 0.1 points)<a class="anchor-link" href="#Challenge-2-2:-Time-Conversion-Procedure-(Bonus-0.1-points)"> </a></h1>
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">timeConversion</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span> <span class="p">{</span>
+  
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">input</span> <span class="o">=</span> <span class="s2">&quot;09:00:00PM&quot;</span><span class="p">;</span>
+  <span class="nx">timeConversion</span><span class="p">(</span><span class="nx">input</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>21:00:00
 </pre>
 </div>
 </div>
