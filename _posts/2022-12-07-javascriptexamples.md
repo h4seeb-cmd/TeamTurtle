@@ -205,43 +205,6 @@ There are 1 zeroes
 </div>
 </div>
 </div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">();</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Minimum:&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Minimum:&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;No minimum&#39;</span><span class="p">);</span>
-        <span class="p">}</span>
-    
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">();</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Maximum:&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Maximum:&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;No maximum&#39;</span><span class="p">);</span>
-        <span class="p">}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 </div>
  
 
