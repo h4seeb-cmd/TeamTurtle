@@ -17,7 +17,7 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>When calling procedures in JavaScript, we use function as opposed to def in python. Here is a basic function to start with. With python we would define the function with "def" but here we are using "function." After that, it is nearly the same for the rest of the program.</p>
+<p>As we learned before, when we define procedures in python, we used "def." However, in JavaScript, we use function as opposed to def in python. Here is a basic procedure to start with. With python we would define the function with "def" but here we are using "function." After that, it is nearly the same for the rest of the program.</p>
 
 </div>
 </div>
