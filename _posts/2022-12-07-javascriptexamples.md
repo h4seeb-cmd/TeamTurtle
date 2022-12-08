@@ -169,10 +169,79 @@ There are 1 zeroes
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Challenge-2-2:-Min-and-Max-(Bonus-0.1-points):-Start-by-creating-a-function-called-findMax-and-set-the-parameters-to-numberA-and-numberB.-Within-the-procedure-write-the-code-to-determine-which-of-the-two-parameters,-numberA-and-numberB,-is-the-larger-value.-Print-the-value-Ccall-the-function-so-that-the-parameters-numberA-and-numberB-are-assigned-to-value.-Optional-bonus---create-a-procedure-that-can-determine-the-minimum-or-maximum-value-out-of-more-than-two-parameters."><mark>Challenge 2</mark> 2: Min and Max (Bonus 0.1 points): Start by creating a function called findMax and set the parameters to numberA and numberB. Within the procedure write the code to determine which of the two parameters, numberA and numberB, is the larger value. Print the value Ccall the function so that the parameters numberA and numberB are assigned to value. Optional bonus - create a procedure that can determine the minimum or maximum value out of more than two parameters.<a class="anchor-link" href="#Challenge-2-2:-Min-and-Max-(Bonus-0.1-points):-Start-by-creating-a-function-called-findMax-and-set-the-parameters-to-numberA-and-numberB.-Within-the-procedure-write-the-code-to-determine-which-of-the-two-parameters,-numberA-and-numberB,-is-the-larger-value.-Print-the-value-Ccall-the-function-so-that-the-parameters-numberA-and-numberB-are-assigned-to-value.-Optional-bonus---create-a-procedure-that-can-determine-the-minimum-or-maximum-value-out-of-more-than-two-parameters."> </a></h1>
+<h1 id="Challenge-2:-Min-and-Max-(Bonus-0.1-points):-You-can-do-this-whole-thing-in-either-Python-or-JavaScript."><mark>Challenge 2</mark>: Min and Max (Bonus 0.1 points): You can do this whole thing in either Python or JavaScript.<a class="anchor-link" href="#Challenge-2:-Min-and-Max-(Bonus-0.1-points):-You-can-do-this-whole-thing-in-either-Python-or-JavaScript."> </a></h1>
 </div>
 </div>
 </div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Start by creating a procedure called findMax and set the parameters to numberA and numberB.</span>
+
+<span class="c1">// Within the procedure, write the code to determine which of the two parameters, numberA or numberB, is the larger value. Print that value.</span>
+
+<span class="c1">// Repeat the process, this time creating a procedure called findMin, which will print the parameter with a smaller value.</span>
+
+<span class="c1">// Call both functions so that the parameters numberA and numberB are given a value.</span>
+
+<span class="c1">// Optional bonus- create a procedure that can determine the minimum or maximum value out of more than two parameters.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Hint: you can use this JavaScript template to get started (this is the code to find the min and max):</p>
+
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">();</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Minimum:&#39;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Minimum:&#39;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;No minimum&#39;</span><span class="p">);</span>
+        <span class="p">}</span>
+    
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">();</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Maximum:&#39;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Maximum:&#39;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;No maximum&#39;</span><span class="p">);</span>
+        <span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 
